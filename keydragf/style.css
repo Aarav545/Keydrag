@@ -1,13 +1,48 @@
+@font-face {
+    font-family: "inter-black";
+    src: url("fonts/Inter-Black.woff") format('woff');
+}
+
+@font-face {
+    font-family: "inter";
+    src: url("fonts/Inter-Regular.woff") format('woff');
+}
+
+@font-face {
+    font-family: "inter-semibold";
+    src: url("fonts/Inter-SemiBold.woff") format('woff');
+}
+
+
 * {
-    background-color: #FFEFEF;
-    font-family:sans-serif; 
+    background-color: #ffefef;
+    font-family:'inter', 'sans-serif'; 
     margin-left: 1%;
+    text-align: center;
+    
+}
+
+.smiley img{
+    height: auto;
+    width: 50%;
+}
+
+.smiley{
+    padding-bottom: 0;
+}
+
+.ion-icon {
+    height: auto;
+    width: 50px;
 }
 
 h1 {
     padding-top: %;
     font-size: 100px;
+    margin-top: 0%;
     margin-bottom: 0%;
+    font-family: 'inter-semibold'
+    
 }
 
 h2 {
@@ -18,3 +53,4 @@ h2 {
 .bold {
     color: #ff3f3f;
 }
+
