@@ -1,0 +1,17 @@
+<html>
+
+<head>
+    <title>keydrag.</title>
+</head>
+
+<body><a href="/"><img width="200px;" src="/assets/logo.png" /></a>
+    <p>beta</p>
+    <form method="post" action="/"><input pattern=".{15,}" type="password" name="passwordInput" /><input type="submit" /></form>
+    <h1>Or Upload a file to validate!</h1>
+    <form method="post" action="/v"><input id="fileInfo" onchange="console.log(this.value);" type="file" /><input type="submit" /></form>
+</body>
+<p>Passwords must be no shorter than 15 characters!</p>
+<p><b>right click to generate 15 secure character password!</b></p>
+<script src="scripts/index.js"></script>
+
+</html>
