@@ -1,0 +1,11 @@
+{
+  "name": "keydrag",
+  "version": "1.0.0",
+  "description": "Convert messy passwords into images to help childern remember passwords",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nabeel Ahmed",
+  "license": "MIT"
+}
